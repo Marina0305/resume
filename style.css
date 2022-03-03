@@ -1,0 +1,91 @@
+body {
+    background: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    min-width: 550px;
+}
+hr{
+    width: 100%;
+    border: none;
+    border-top: 2px solid black;
+}
+p{
+    margin: 1px;
+}
+.resume{
+    background: #FDEEC8;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 800px;
+    padding: 30px;
+}
+.first_column{
+    background: #D19E60;
+    padding: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: 35%;
+    min-width: 230px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+img{
+    width: 100%;
+}
+.white_text{
+    color: #F8F1D0;
+}
+.privacy_data, .hobbies, .lang{
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.privacy_data{
+    min-height: 220px;
+}
+.hobbies{
+    min-height: 175px;
+}
+.lang{
+    min-height: 150px;
+    padding-bottom: 45px;
+}
+.second_column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    word-wrap: break-word;
+    width: 100%;
+}
+.name{
+    text-align: center;
+    padding: 5%;
+}
+.second_hr{
+    border-top: 3px solid #D19E60 ;
+}
+.name_text{
+    font-size: 45px;
+}
+.name_designer{
+    font-size: 20px;
+}
+.block{
+    padding-left: 5%;
+    padding-right: 5%;
+}
+.second_title{
+    padding: 5%;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    font-size: 25px;
+}
+.second_text{
+    padding-left: 10%;
+    padding-right: 5%;
+}
